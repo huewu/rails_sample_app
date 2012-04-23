@@ -12,7 +12,6 @@ group :assets do
 end
 
 group :test do
-  gem 'rspec-rails'
   gem 'shoulda-matchers'
   gem 'capybara'
   gem 'capybara-webkit'
@@ -30,6 +29,7 @@ group :development do
 end
 
 group :development, :test do
+  gem 'rspec-rails'
   gem 'pry'
   gem 'pry-nav'
 end
