@@ -1,0 +1,32 @@
+development: &development
+  adapter: postgresql
+  reconnect: false
+  pool: 10
+  username: balmbees
+  password: balmbees!!
+  min_messages: WARNING
+  encoding: utf8
+  host: localhost
+  database: smaple_app
+
+test: &test
+  adapter: postgresql
+  reconnect: false
+  pool: 10
+  username: balmbees
+  password: balmbees!!
+  min_messages: WARNING
+  encoding: utf8
+  host: localhost
+  database: sample_app
+
+production:
+  adapter: postgresql
+  reconnect: false
+  pool: 10
+  username: balmbees
+  password: balmbees!!
+  min_messages: WARNING
+  encoding: utf8
+  host: localhost
+  database: sample_app
