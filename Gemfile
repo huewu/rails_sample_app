@@ -17,6 +17,8 @@ group :test do
   gem 'capybara-webkit'
   gem 'database_cleaner'
   gem 'timecop'
+  gem 'guard-spork'
+  gem 'spork'
 end
 
 group :development do
