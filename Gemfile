@@ -36,4 +36,4 @@ group :development, :test do
   gem 'pry-nav'
 end
 
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '2.0.0'
